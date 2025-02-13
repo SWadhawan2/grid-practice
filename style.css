@@ -1,6 +1,6 @@
 /* This is just to see the boxes */
 div {
-    border: 1px solid red
+    border: 5px solid rgb(122, 200, 150)
 }
 
 /* This is where the layouts begins
@@ -30,3 +30,15 @@ GRID */
     grid-row: 3/4;
 }
 
+/* FLEXBOX to hold images inside rightbox */
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;  */ To make our images rearrange if width decreases
+}
+
+.child {
+    flex: 40%;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
